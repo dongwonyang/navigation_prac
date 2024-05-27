@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 as NavHostFragment).navController
         binding.botnav.setupWithNavController(navController)
 
+
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_menu_24)
